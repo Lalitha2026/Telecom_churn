@@ -12,10 +12,7 @@ This end-to-end data product addresses customer attrition for a major telecommun
 
 ## 2. Technical Stack & Architecture
 
-```text
 [Excel Data Prep] ──> [PostgreSQL Database] / [SQL Database] ──> [Python ML Pipeline] ──> [Tableau/Power BI]
-
-```
 
 * **Data Cleansing & Logic Mapping:** `Excel`
 * Resolved data anomalies and empty structures using conditional logic (`IF` tracking) to handle edge cases like zero-month tenure anomalies, establishing an entirely numeric baseline for advanced pipeline scaling.
